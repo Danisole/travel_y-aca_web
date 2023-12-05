@@ -9816,18 +9816,18 @@ h6,
 
 @media (max-width: 600px){
   .btnWsp{
-   margin-left: 80% !important;   
+   margin-left: 70% !important;   
    }
 }
 
 @media (max-width: 300px){
   .btnWsp{
-   margin-left: 70% !important;   
+   margin-left: 65% !important;   
    }
 }
 
 @media (max-width: 200px){
   .btnWsp{
-   margin-left: 65% !important;   
+   margin-left: 60% !important;   
    }
- }
+}
