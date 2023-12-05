@@ -317,6 +317,35 @@ legend {
   background-color: #ede0d4;
 }
 
+/*icono flotante de wsp*/
+.btnWsp{
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  bottom: 100px;
+  background: #0df053;
+  color: #ffff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 50px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0,3);
+  z-index: 100;
+  margin-left: 90% !important;
+  transition: 1s;
+}
+.btnWsp:hover{
+  text-decoration: none;
+  color: #0df053;
+  background: #ffff;
+  width: 85px;
+  height: 85px;
+  line-height: 85px;
+  bottom: 40px;
+  transition: all 2s;
+}
+
+
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
@@ -619,6 +648,8 @@ pre code {
   .container, .container-sm, .container-md {
     max-width: 720px;
   }
+
+  
 }
 
 @media (min-width: 992px) {
@@ -4484,6 +4515,7 @@ input[type="button"].btn-block {
     margin-bottom: 0;
     margin-left: 15px;
   }
+
 }
 
 .card-group > .card {
@@ -4652,6 +4684,7 @@ input[type="button"].btn-block {
   .badge {
     transition: none;
   }
+  
 }
 
 a.badge:hover, a.badge:focus {
@@ -9772,3 +9805,29 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+
+
+@media (max-width: 800px){
+ .btnWsp{
+  margin-left: 85% !important;   
+  }
+}
+
+@media (max-width: 600px){
+  .btnWsp{
+   margin-left: 80% !important;   
+   }
+}
+
+@media (max-width: 300px){
+  .btnWsp{
+   margin-left: 70% !important;   
+   }
+}
+
+@media (max-width: 200px){
+  .btnWsp{
+   margin-left: 65% !important;   
+   }
+ }
